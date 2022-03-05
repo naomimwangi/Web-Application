@@ -1,8 +1,8 @@
 body {
-    background-image: url(background1.jpg);
-    background-size: 12000px;
+    background-image: url(frame.png);
+    background-size: 1300px;
     
-    color: aliceblue;
+    color: rgb(73, 15, 121);
 }
 .container {
     text-align: right;
