@@ -1,17 +1,17 @@
 body {
     background-image: url(frame.png);
     background-size: 1300px;
-    
     color: rgb(73, 15, 121);
 }
 .container {
     text-align: right;
-    padding: 40px;
-    max-width: 600px;
-    margin: 40px auto;
-    border-radius: 4px;
-    padding-right: 40px;
-    
-  
-    
+    max-width: 300px;
+    margin: -50px auto;
+    padding-right: 30px;
+    padding-top: 0px;
+}
+.introduction {
+    text-align: center;
+    padding: 150px;
+
 }
