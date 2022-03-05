@@ -18,6 +18,9 @@ Clone this repo to your desktop and run it to install all the dependencies.
 ## Contact Information
 Email: naomimwangi7@gmail.com
 
+## Live Site
+[livesite](https://naomimwangi.github.io/Web-Application/)
+
 
 ### Licence
 [MIT LICENSE](LICENSE.txt)
