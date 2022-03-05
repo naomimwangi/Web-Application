@@ -1,4 +1,17 @@
 body {
-    background-image: url(background.jpg);
+    background-image: url(background1.jpg);
+    background-size: 12000px;
+    
     color: aliceblue;
+}
+.container {
+    text-align: right;
+    padding: 40px;
+    max-width: 600px;
+    margin: 40px auto;
+    border-radius: 4px;
+    padding-right: 40px;
+    
+  
+    
 }
