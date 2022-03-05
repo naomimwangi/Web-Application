@@ -21,6 +21,62 @@ function calculateDayValue() {
     console.log (d);
     return (math.floor(d));
 }
+//validating gender input
+function getGender() {
+    if(genders[0] == true){
+        let gender = "Male"
+    }
+    else if(genders[1] == true){
+        let gender = "Female"
+    }
+    switch (gender) {
+        case "Male":
+            if (d == 1) {
+                alert("You were born on " + days[0] + " and Your akan name is " + male[0]);
+            }
+            else if (d == 2) {
+                alert("You were born on " + days[1] + " and Your akan name is " + male[1]);
+            }
+            else if (d == 3) {
+                alert("You were born on " + days[2] + " and Your akan name is " + male[2]);
+            }
+            else if (d == 4) {
+                alert("You were born on " + days[3] + " and Your akan name is " + male[3]);
+            }
+            else if (d == 5) {
+                alert("You were born on " + days[4] + " and Your akan name is " + male[4]);
+            }
+            else if (d == 6) {
+                alert("You were born on " + days[5] + " and Your akan name is " + male[5]);
+            }
+            else if (d == -0) {
+                alert("You were born on " + days[6] + " and Your akan name is " + male[6]);
+            }
+            break;
+        case "female":
+            if (d == 1) {
+                alert("You were born on " + days[0] + " and Your akan name is  " + female[0]);
+            }
+            else if (d == 2) {
+                alert("You were born on " + days[1] + " and Your akan name is " + female[1]);
+            }
+            else if (d == 3) {
+                alert("You were born on " + days[2] + " and Your akan name is " + female[2]);
+            }
+            else if (d == 4) {
+                alert("You were born on " + days[3] + " and Your akan name is " + female[3]);
+            }
+            else if (d == 5) {
+                alert("You were born on " + days[4] + " and Your akan name is " + female[4]);
+            }
+            else if (d == 6) {
+                alert("You were born on " + days[5] + " and Your akan name is " + female[5]);
+            } else if (d == -0) {
+                alert("You were born on " + days[6] + " and Your akan name is " + female[6]);
+            }
+    }    
+}
+
 
 
 
