@@ -17,6 +17,7 @@
     <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name'
     which corresponds to the day in the week they were born. To find out your Akan name, enter your <strong>Birthday</strong> and <strong>Gender</strong> in the form below, click <strong>SUBMIT</strong> and just like that your Akan name pop's up! Interesting right?</p>
     <div class="container">
+        <form name="myForm" class="form" onsubmit="validate();"></form>
         
         <div class="gender">
             <label for="gender">Gender:</label>
@@ -38,15 +39,7 @@
             <input type="number" id="year" name="year" placeholder="YY">
 
         </div>
-        <div class="field">
-            <button type="submit">SUBMIT</button>
-        </div>
-
-
-
-
-
-
+        <button type="submit" class="btn btn-primary" onclick="findName();">Get Name</button>
     </div>
 
 
