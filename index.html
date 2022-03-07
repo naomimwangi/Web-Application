@@ -19,22 +19,22 @@
     which corresponds to the day in the week they were born. To find out your Akan name, enter your <strong>Birthday</strong> and <strong>Gender</strong> in the form below, click <strong>SUBMIT</strong> and just like that your Akan name pop's up! Interesting right?</p>
     </div>
     <div class="container">
-        <form name="myForm" class="form" onsubmit="validate();"></form>
+        <form name="myForm" class="form" onclick="findName();"></form>
         
         <div class="gender">
             <label for="gender">Gender:</label>
             <input type="text" id="gender" name="gender" placeholder="Male or Female" />
-            <small></small>
+           
         </div>
         <div class="date">
             <label for="date">Date:</label>
             <input type="number" id="date" name="date" placeholder="DD" />
-            <small></small>
+        
         </div>
         <div class="month">
             <label for="month">Month:</label>
             <input type="number" id="month" name="month" placeholder="MM"> 
-            <small></small>
+            
         </div>
         <div class="year">
             <label for="year">Year:</label>
@@ -43,10 +43,6 @@
         </div>
         <button type="submit" class="btn btn-primary" onclick="findName();">Get Name</button>
     </div>
-
-
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
