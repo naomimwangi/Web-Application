@@ -76,7 +76,10 @@ function getGender() {
             }
     }    
 }
-
+function findName() {
+    d = calculateDayValue();
+    getGender();
+}    
 
 
 
